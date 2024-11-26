@@ -1,0 +1,148 @@
+/* General container styling */
+.about-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: linear-gradient(to right, #e0f7fa, #fff);
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  /* Header section */
+  .about-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-header h1 {
+    font-size: 2.5rem;
+    color: #00796b;
+    margin-bottom: 10px;
+  }
+  
+  .about-header p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  /* Mission and Vision sections */
+  .about-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .about-box {
+    flex: 1 1 45%;
+    margin: 10px;
+    padding: 20px;
+    background: #f1f8e9;
+    border: 2px solid #c5e1a5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-box h2 {
+    font-size: 1.5rem;
+    color: #33691e;
+    margin-bottom: 10px;
+  }
+  
+  .about-box p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Highlights section */
+  .about-highlights {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .about-highlights h2 {
+    font-size: 1.8rem;
+    color: #00796b;
+    margin-bottom: 15px;
+  }
+  
+  .about-highlights ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-highlights li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Responsive Design */
+  @media only screen and (max-width: 1024px) {
+    .about-box {
+      flex: 1 1 100%;
+      margin: 10px 0;
+    }
+  
+    .about-header h1 {
+      font-size: 2rem;
+    }
+  
+    .about-header p {
+      font-size: 1.1rem;
+    }
+  
+    .about-highlights h2 {
+      font-size: 1.5rem;
+    }
+  
+    .about-highlights li {
+      font-size: 1rem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .about-header h1 {
+      font-size: 1.8rem;
+    }
+  
+    .about-header p {
+      font-size: 1rem;
+    }
+  
+    .about-box {
+      padding: 15px;
+    }
+  
+    .about-box h2 {
+      font-size: 1.3rem;
+    }
+  
+    .about-box p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .about-header h1 {
+      font-size: 1.5rem;
+    }
+  
+    .about-header p {
+      font-size: 0.9rem;
+    }
+  
+    .about-box h2 {
+      font-size: 1.1rem;
+    }
+  
+    .about-box p {
+      font-size: 0.8rem;
+    }
+  
+    .about-highlights li {
+      font-size: 0.9rem;
+    }
+  }
+  
